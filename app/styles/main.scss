@@ -26,14 +26,18 @@ body {
 
 /* Custom page header */
 .header {
-  // border-bottom: 1px solid #e5e5e5;
+  .record {
+    margin-top: -130px;
+  }
 
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+  ul {
+    list-style: none;
+    padding-left: 0rem;
+
+    li {
+      display: inline-block;
+      padding: 1rem;
+    }
   }
 }
 
@@ -41,7 +45,6 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  // border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
