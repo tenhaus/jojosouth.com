@@ -26,8 +26,10 @@ body {
 
 /* Custom page header */
 .header {
+  margin-bottom: 10rem;
+
   .record {
-    margin-top: -130px;
+    margin-top: -140px;
   }
 
   ul {
@@ -38,6 +40,18 @@ body {
       display: inline-block;
       padding: 1rem;
     }
+  }
+}
+
+.content-box {
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  border: 1px solid #666;
+  margin-bottom: 3rem;
+
+  h3, p {
+    margin-bottom: 3rem;
   }
 }
 
