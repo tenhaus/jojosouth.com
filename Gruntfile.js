@@ -413,11 +413,11 @@ module.exports = function (grunt) {
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
+    'autoprefixer',
     'concat',
     'cssmin',
     'uglify',
     'copy:dist',
-    'rev',
     'usemin',
     'htmlmin'
   ]);
