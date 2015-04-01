@@ -345,7 +345,7 @@ module.exports = function (grunt) {
       },
       cname: {
         cwd: '.',
-        dest: '<%= config.dist %>',
+        dest: '<%= config.dist %>/CNAME',
         src: '<%= config.app %>/CNAME'
       }
     },
